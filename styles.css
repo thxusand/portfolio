@@ -160,7 +160,7 @@ fieldset {
 #welcome-section {
 	padding-top: var(--nav-height);
 	width: 100vw;
-	height: 100vh;
+	height: 100dvh;
 	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(./img/hero.jpg) no-repeat fixed;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -221,7 +221,7 @@ fieldset {
 	color: var(--hover-color);
 }
 
-.mouse {
+/* .mouse {
 	width: 25px;
 	height: 40px;
 	border: 2px solid #eee;
@@ -242,12 +242,12 @@ fieldset {
 	border-radius: 50%;
 	opacity: 1;
 	animation: wheel 1.3s infinite;
-}
+} */
 
 #about {
 	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(./img/background-about.jpg) var(--bg-color) no-repeat fixed;
 	background-size: cover;
-	height: 100vh;
+	height: 100dvh;
 	width: 100%;
 }
 
@@ -498,7 +498,7 @@ fieldset {
 	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(./img/background-projects.jpeg) var(--bg-color) no-repeat fixed;
 	background-size: cover;
 	width: 100%;
-	min-height: 100vh;
+	min-height: 100dvh;
 }
 
 #projects-anchor {
@@ -600,7 +600,7 @@ fieldset {
 #contacts {
 	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(./img/background-contacts.jpg) var(--bg-color) no-repeat fixed;
 	background-size: cover;
-	min-height: 100vh;
+	min-height: 100dvh;
 	width: 100%;
 }
 
@@ -844,7 +844,7 @@ fieldset {
 	#projects,
 	#contacts {
 		height: auto;
-		min-height: 100vh;
+		min-height: 100dvh;
 	}
 
 	#about-anchor,
